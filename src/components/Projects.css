@@ -1,0 +1,54 @@
+.projects {
+  margin-top: 0;
+  padding: 50px 0 50px 0;
+  background-position: top center;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: rgb(9, 0, 103);
+  background: linear-gradient(121deg, rgba(7, 2, 58) 0%, rgba(84, 53, 115, 1) 55%, rgba(122, 56, 56, 1) 100%);
+}
+
+.tab-container {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+
+}
+
+.projects-container {
+  width: 100%;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.prueba {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+.prueba .col-project {
+} */
+
+
+
+.projects .nav-tabs .nav-link.active {
+  color: white;
+  transition: all 3s ease-in-out;
+  background: linear-gradient(306deg, rgba(9, 0, 103, 1) 0%, rgba(84, 53, 115, 1) 48%, rgba(122, 56, 56, 1) 100%);
+}
+
+
+.projects .nav-tabs .nav-link {
+  border-radius: 20px;
+  color: white;
+
+}
+
+.projects .nav-tabs {
+  border-color: white;
+}

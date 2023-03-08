@@ -1,0 +1,46 @@
+.connect.dark-section{
+    background-color: rgb(30, 30, 30);
+}
+
+
+.connect .container {
+    max-width: 1100px;
+    min-height: 180px;
+    padding: 20px;
+}
+
+
+
+.connect {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.connect.rectangle {
+    margin-top: -5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.connect .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.connect .title-section {
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+}
+
+.connect .description-section {
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.connect button {
+    padding: 1.25em 2em;
+    margin: 10px;
+}
