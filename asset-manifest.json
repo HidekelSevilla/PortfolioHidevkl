@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioHidevkl/static/css/main.b4a9b040.css",
-    "main.js": "/PortfolioHidevkl/static/js/main.c533d570.js",
+    "main.css": "/PortfolioHidevkl/static/css/main.dfa43ff0.css",
+    "main.js": "/PortfolioHidevkl/static/js/main.e5b04e36.js",
     "static/media/Me.png": "/PortfolioHidevkl/static/media/Me.4caaa8ecf05ad4b2c12f.png",
     "static/media/React-logo.png": "/PortfolioHidevkl/static/media/React-logo.81ed438b18e24116794d.png",
     "static/media/banner.svg": "/PortfolioHidevkl/static/media/banner.94690c302f86551f3308a6852ce7990f.svg",
@@ -16,12 +16,11 @@
     "static/media/JavaScript-logo.png": "/PortfolioHidevkl/static/media/JavaScript-logo.3dfb665e058d08c99f28.png",
     "index.html": "/PortfolioHidevkl/index.html",
     "static/media/nav-icon1.svg": "/PortfolioHidevkl/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/background.svg": "/PortfolioHidevkl/static/media/background.533da2a32d5d686ffdb20bd67eff194a.svg",
-    "main.b4a9b040.css.map": "/PortfolioHidevkl/static/css/main.b4a9b040.css.map",
-    "main.c533d570.js.map": "/PortfolioHidevkl/static/js/main.c533d570.js.map"
+    "main.dfa43ff0.css.map": "/PortfolioHidevkl/static/css/main.dfa43ff0.css.map",
+    "main.e5b04e36.js.map": "/PortfolioHidevkl/static/js/main.e5b04e36.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4a9b040.css",
-    "static/js/main.c533d570.js"
+    "static/css/main.dfa43ff0.css",
+    "static/js/main.e5b04e36.js"
   ]
 }
