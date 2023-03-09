@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/PortfolioHidevkl/static/css/main.dfa43ff0.css",
-    "main.js": "/PortfolioHidevkl/static/js/main.e5b04e36.js",
+    "main.css": "/PortfolioHidevkl/static/css/main.f812f471.css",
+    "main.js": "/PortfolioHidevkl/static/js/main.146c4459.js",
     "static/media/Me.png": "/PortfolioHidevkl/static/media/Me.4caaa8ecf05ad4b2c12f.png",
+    "static/media/PortfolioImg.png": "/PortfolioHidevkl/static/media/PortfolioImg.9bec31242662ee1b4012.png",
     "static/media/React-logo.png": "/PortfolioHidevkl/static/media/React-logo.81ed438b18e24116794d.png",
     "static/media/banner.svg": "/PortfolioHidevkl/static/media/banner.94690c302f86551f3308a6852ce7990f.svg",
     "static/media/Centra.ttf": "/PortfolioHidevkl/static/media/Centra.2faff7f7d3fc92a2fcd9.ttf",
@@ -16,11 +17,11 @@
     "static/media/JavaScript-logo.png": "/PortfolioHidevkl/static/media/JavaScript-logo.3dfb665e058d08c99f28.png",
     "index.html": "/PortfolioHidevkl/index.html",
     "static/media/nav-icon1.svg": "/PortfolioHidevkl/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.dfa43ff0.css.map": "/PortfolioHidevkl/static/css/main.dfa43ff0.css.map",
-    "main.e5b04e36.js.map": "/PortfolioHidevkl/static/js/main.e5b04e36.js.map"
+    "main.f812f471.css.map": "/PortfolioHidevkl/static/css/main.f812f471.css.map",
+    "main.146c4459.js.map": "/PortfolioHidevkl/static/js/main.146c4459.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfa43ff0.css",
-    "static/js/main.e5b04e36.js"
+    "static/css/main.f812f471.css",
+    "static/js/main.146c4459.js"
   ]
 }
