@@ -1,5 +1,7 @@
 import { Container, Row, Tab, Tabs, Col } from "react-bootstrap"
+import { BoxArrowUpRight, Github } from "react-bootstrap-icons"
 import '../components/Projects.css'
+import Proyect1 from '../Images/PortfolioImg.png'
 
 
 
@@ -14,25 +16,31 @@ export const Projects = () => {
             className="mb-3"
             justify
           >
-            <Tab eventKey="home" title="Frontend" className="tab-container text-center">
-              <Row className="prueba" >
-                  <Col className="col-project" xs={12} md={6} xl={4} >
-                    <div>
-                      <img>
-                      </img>
-                      <div className="overlay"></div>
+            <Tab eventKey="profile" title="Proyectos" className="tab-container text-center" >
+              <Container>
+                <Row>
+                  <div className="col-12 col-md-6 col-lg-4">
+                    <div className="proyectos">
+                      <img src={Proyect1} alt="Proyecto 1 Portfolio" />
+                      <div className="overlay">
+                        <p>
+                          Proyecto 1
+                        </p>
+                        <div className="iconos-contenedor">
+                          <a href="" target="_blank" rel="noopener noreferrer" >
+                            <Github />
+                          </a>
+                          <a href="" target="_blank" rel="noopener noreferrer">
+                            <BoxArrowUpRight />
+                          </a>
+                        </div>
+                      </div>
+
                     </div>
-                     
-                  </Col >
-                  <Col className="col-project" xs={12} md={6} xl={4} >
-                  </Col>
-                  <Col className="col-project" xs={12} md={6} xl={4}>
-                  </Col>
-              </Row>
-            </Tab>
-            <Tab eventKey="profile" title="Fullstack" className="tab-container">
-            </Tab>
-            <Tab eventKey="longer-tab" title="Backend" className="tab-container">
+
+                  </div>
+                </Row>
+              </Container>
             </Tab>
 
           </Tabs>

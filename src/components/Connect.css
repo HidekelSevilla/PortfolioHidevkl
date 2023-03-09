@@ -1,4 +1,7 @@
-.connect.dark-section{
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&display=swap');
+
+
+.connect.dark-section {
     background-color: rgb(30, 30, 30);
 }
 
@@ -12,6 +15,7 @@
 
 
 .connect {
+
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -30,17 +34,33 @@
 }
 
 .connect .title-section {
+
     color: rgb(0, 0, 0);
     font-size: 2.5rem;
 }
 
 .connect .description-section {
     color: rgb(0, 0, 0);
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 20px;
 }
 
+.connect span {
+
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
+}
+
 .connect button {
+    font-family: 'Chivo Mono', monospace;
+    font-weight: bold;
     padding: 1.25em 2em;
     margin: 10px;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.connect button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
 }

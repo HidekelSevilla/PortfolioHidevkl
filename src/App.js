@@ -6,7 +6,6 @@ import { AboutMe } from "./components/AboutMe";
 import { Connect } from "./components/Connect";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import background from "./Images/background.svg";
 
 function App() {
   return (
