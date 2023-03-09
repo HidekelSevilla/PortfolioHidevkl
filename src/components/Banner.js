@@ -45,7 +45,7 @@ export const Banner = () => {
             <button onClick={() => console.log('')}>Conectemos! <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img className='logo-principal' src={banner} alt='header img' height={470}></img>
+            <img className='logo-principal' src={banner} alt='header img' width={"100%"}></img>
           </Col>
         </Row>
       </Container>

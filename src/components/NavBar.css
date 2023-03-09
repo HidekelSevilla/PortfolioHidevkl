@@ -252,5 +252,9 @@ nav.navbar .navbar-nav .nav-link:nth-child(5) {
     height: 100%;
   }
 
+  nav.navbar .navbar-nav {
+    text-align: left;
+  }
+
 
 }

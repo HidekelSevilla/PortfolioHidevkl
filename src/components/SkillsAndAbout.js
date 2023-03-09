@@ -11,14 +11,14 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 export const SkillsAndAbout = (props) => {
   return (
-    <Container className='container-skills g-0' >
+    <Container className='container-skills' >
       <div className='bckg'>
         {props.logo ?
           (
             <Row className='skills-icons'>
               <Col xl={12} className='icons-frontend'>
                 <div className='skills-div-txt'>
-                  <h1 className='front-txt'>Frontend Skills</h1>
+                  <h1 >Frontend Skills</h1>
                 </div>
                 <div className='skills-icons-frontend' >
                     <img className='' src={JSLogo} alt="Second slide" width={120} height={120} />
@@ -42,8 +42,7 @@ export const SkillsAndAbout = (props) => {
                   <img className='' src={MySqlLogo} alt="Second slide" width={120} height={90} />
                   <img className='' src={MongoLogo} alt="Second slide" width={130} height={70} />
                 </div>
-                <div className='skills-txt'>
-                </div>
+               \
               </Col>
             </Row>
 
