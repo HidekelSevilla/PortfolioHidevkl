@@ -24,13 +24,13 @@ export const Projects = () => {
                       <img src={Proyect1} alt="Proyecto 1 Portfolio" />
                       <div className="overlay">
                         <p>
-                          Proyecto 1
+                          Proyecto: Portfolio personal
                         </p>
                         <div className="iconos-contenedor">
-                          <a href="" target="_blank" rel="noopener noreferrer" >
+                          <a href="https://github.com/HidekelSevilla/PortfolioHidevkl" target="_blank" rel="noopener noreferrer" >
                             <Github />
                           </a>
-                          <a href="" target="_blank" rel="noopener noreferrer">
+                          <a href="https://hidekelsevilla.github.io/PortfolioHidevkl/#" target="_blank" rel="noopener noreferrer">
                             <BoxArrowUpRight />
                           </a>
                         </div>

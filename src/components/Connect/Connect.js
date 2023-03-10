@@ -32,7 +32,9 @@ export const Connect = () => {
             </Col>
           </Row>
         </div>
+        <span style={{ position: 'relative', bottom: '-20px', color: "#aeaeae", fontSize: '15px' }}>Creado por Hidekel Sevilla (2023) &#169;</span>
       </Container>
+
     </section >
   )
 } 

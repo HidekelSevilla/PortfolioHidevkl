@@ -46,18 +46,20 @@
 }
 
 .overlay p {
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 .overlay .iconos-contenedor {
   display: flex;
+  justify-content: center;
 }
 
 .overlay svg {
+
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 40px;
   margin: 10px;
 }
 
