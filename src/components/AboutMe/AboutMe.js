@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Me from "../Images/Me.png";
-import "../components/AboutMe.css";
+import Me from "../../Images/Me.png";
+import "../AboutMe/AboutMe.css";
 import { SkillsAndAbout } from "./SkillsAndAbout";
 import React, { useState } from 'react'
 import { ArrowLeftCircle, ArrowRightCircle } from 'react-bootstrap-icons';

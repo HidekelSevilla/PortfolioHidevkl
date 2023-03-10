@@ -1,18 +1,40 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import banner from '../Images/banner.svg';
-import { React, useEffect, useRef } from 'react';
-import '../components/Banner.css';
+import banner from '../../Images/banner.svg';
+import { React, useEffect, useRef, useState } from 'react';
+import '../Hero/Banner.css';
 import Typed from 'typed.js';
+import { useDispatch, useSelector } from 'react-redux';
+import { toggleLoop } from '../../store/slices/designSlice';
 
 
 export const Banner = () => {
 
+  const { controlLoop } = useSelector(state => state.design);
+  const dispatch = useDispatch();
+
+
+  const sectionRef = useRef();
   const el = useRef(null);
 
   useEffect(() => {
-    const typed = new Typed(el.current, {
+    const handleScroll = () => {
+      const div = sectionRef.current;
+      const { y } = div.getBoundingClientRect();
+      const scrollY = y <= -230 ? false : true;
+      dispatch(toggleLoop(scrollY));
+    }
 
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    }
+  }, []);
+
+
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
       strings: ["un desarrollador Front-end<br> ", "un desarrollador Back-end<br>"],
       typeSpeed: 120,
       startDelay: 500,
@@ -20,7 +42,7 @@ export const Banner = () => {
       smartBackspace: true,
       shuffle: false,
       backDelay: 1000,
-      loop: true,
+      loop: controlLoop,
       showCursor: true,
       cursorChar: '|',
       loopCount: false,
@@ -32,7 +54,7 @@ export const Banner = () => {
   })
 
   return (
-    <section className='banner' id='home'>
+    <section className='banner' id='home' ref={sectionRef}>
       <Container className='container-principal'>
         <Row className='hero-text align-items-center'>
           <Col xs={12} md={6} xl={7} className='fulltxt'>

@@ -1,7 +1,7 @@
-import { Container, Row, Tab, Tabs, Col } from "react-bootstrap"
+import { Container, Row, Tab, Tabs } from "react-bootstrap"
 import { BoxArrowUpRight, Github } from "react-bootstrap-icons"
-import '../components/Projects.css'
-import Proyect1 from '../Images/PortfolioImg.png'
+import '../Projects/Projects.css'
+import Proyect1 from '../../Images/PortfolioImg.png'
 
 
 

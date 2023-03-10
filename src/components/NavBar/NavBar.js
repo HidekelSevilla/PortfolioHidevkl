@@ -1,15 +1,15 @@
-import logo from '../Images/logo.png';
+import logo from '../../Images/logo.png';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { useEffect, useState, useRef } from 'react';
-import '../components/NavBar.css';
-import navIcon1 from '../Images/nav-icon1.svg';
-import navIcon2 from '../Images/icon-github.png';
+import '../NavBar/NavBar.css';
+import navIcon1 from '../../Images/nav-icon1.svg';
+import navIcon2 from '../../Images/icon-github.png';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
 
 
-export const NavBar = (props) => {
+export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false)

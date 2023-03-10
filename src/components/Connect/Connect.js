@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
-import '../components/Connect.css'
-import { EnvelopeAtFill, MdMarkEmailRead } from "react-bootstrap-icons";
+import '../Connect/Connect.css'
+import { EnvelopeAtFill } from "react-bootstrap-icons";
 
 
 
