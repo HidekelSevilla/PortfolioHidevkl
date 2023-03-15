@@ -64,7 +64,6 @@ export const Banner = () => {
               manejo de tecnologías cómo React Js, Node Js, Express Js, Spring y Git. Poseo la capacidad para crear API's,
               construcción de páginas web y una fácil adaptación y asimilación a nuevas tecnologías.
             </p>
-            <button onClick={() => console.log('')}>Conectemos! <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img className='logo-principal' src={banner} alt='header img' width={"100%"}></img>

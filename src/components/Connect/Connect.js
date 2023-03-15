@@ -26,13 +26,15 @@ export const Connect = () => {
                   <EnvelopeAtFill />
 
                 </button>
-
               </a>
 
             </Col>
           </Row>
         </div>
-        <span style={{ position: 'relative', bottom: '-20px', color: "#aeaeae", fontSize: '15px' }}>Creado por Hidekel Sevilla (2023) &#169;</span>
+        <span style={{ position: 'relative', bottom: '-20px', color: "#aeaeae", fontSize: '15px' }}
+        >
+          Creado por Hidekel Sevilla (2023) &#169;
+        </span>
       </Container>
 
     </section >
